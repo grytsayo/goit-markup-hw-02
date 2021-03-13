@@ -4,12 +4,13 @@
   --title-color: #212121;
   --dark-background: #2f303a;
   --light-background: #f5f4fa;
+  --accent-color: #2196f3;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1/71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
@@ -19,16 +20,13 @@ body {
   color: inherit;
 }
 
-.list {
-  list-style: none;
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
 }
 
-.button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  color: var(--title-color);
-  text-align: center;
+.list {
+  list-style: none;
 }
 
 .button-main {
@@ -43,13 +41,42 @@ body {
   color: var(--dark-bg-text-color);
 }
 
+.title {
+  font-weight: 700;
+  color: var(--title-color);
+  letter-spacing: 0.06em;
+}
+
 .page-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--dark-bg-text-color);
   background-color: var(--dark-background);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.forces-list {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.team-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+}
+
+.projects-list {
+  font-size: 18px;
+  line-height: 2;
 }
