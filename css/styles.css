@@ -40,10 +40,16 @@ footer:hover {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--dark-bg-text-color);
+  cursor: pointer;
 }
 
-.button:hover {
+.button {
+  cursor: pointer;
+}
+.button:hover,
+button:focus {
   background-color: var(--accent-color);
+  color: var(--dark-bg-text-color);
 }
 
 .title {
